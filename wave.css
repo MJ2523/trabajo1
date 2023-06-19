@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    height: 150vh;
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(193, 180, 212, 0.51), rgba(171, 150, 217, 0.51)), url(img2.jpg);
+    padding-bottom: 60px;
+}
+.contenedor-textos{
+    width: 50%;
+    color: mediumpurple;
+}
+h1{
+    font-weight: 700;
+    font-size: 85px;
+    margin: 30px;
+    text-shadow: 3px 3px 3px #fff;
+}
+img{
+    width: 40%;
+    display: inline-block;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+}
+.wavemj{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+}
+
+
+
